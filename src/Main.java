@@ -31,6 +31,19 @@ public class Main {
         System.out.println("Минимальная сумма трат за день составила " + minPayment + " рублей.");
         System.out.println("Максимальная сумма трат за день составила " + maxPayment + " рублей.");
 
+        // Задача 3
+
+        int[] payments2 = {1500, 2000, 300, 1200, 2500};
+        int sum1 = 0;
+
+        for (int payment : payments2) {
+            sum1 += payment;
+        }
+
+        double average = (double) sum1 / payments2.length;
+
+        System.out.println("Средняя сумма трат за месяц составила " + average + " рублей.");
+
     }
 
 
